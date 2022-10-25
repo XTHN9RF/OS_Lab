@@ -22,9 +22,9 @@
 
 ---
 
-Спочатку я запулив імейдж вордпреса з Docker hub за допомогою команди: <strong> docker pull wordpress </strong>
+Спочатку я запулив імейдж вордпреса з Docker hub за допомогою команди: <strong> docker pull wordpress </strong> <br/>
 
-За прикладом з сайту я написав свій compose.yml файл, змінивши усі рядки з "example" на користувацькі та версію на 3.8
+За прикладом з сайту я написав свій compose.yml файл, змінивши усі рядки з "example" на користувацькі та версію на 3.8 <br/>
 
 ---
 
@@ -69,7 +69,7 @@ volumes:
 ```
 
 
-Сайт на вордперсі, що запущений на порті 8080
+<strong> Сайт на вордперсі, що запущений на порті 8080 </strong> <br/>
 ![wordpress_site_image](Lab3_images/wordpress_site.png)
 
 ## 2. Використання Docker Compose.
@@ -108,8 +108,7 @@ volumes:
 
 ---
 
-### <strong> Навести приклад створення та збирання образа за допомогою Docker Compose. </strong>
-За допомогою файлу compose.yml я запустив команду compose up
+<strong> За допомогою файлу compose.yml я запустив команду compose up </strong> <br/>
 ![compose_up_image](Lab3_images/compose_up.png)
 
 
@@ -144,13 +143,13 @@ volumes:
     FROM nginx
     COPY . /usr/share/nginx/html
 ```
-<strong>Запуск веб-сторінки за допомогою docker</strong>
+<strong>Запуск веб-сторінки за допомогою docker</strong> <br/>
 ![web-page_run](Lab3_images/web-page_run.png)
 
-<strong> Білд імейджа </strong>
+<strong> Білд імейджа </strong> <br/>
 ![image_build](Lab3_images/image_build.png)
 
-<strong> Пуш імейджа на Docker Hub</strong>
+<strong> Пуш імейджа на Docker Hub</strong> <br/>
 ![docker_push](Lab3_images/docker_push.png)
 
 <strong>Посилання на мій Docker Hub <strong>
@@ -163,8 +162,8 @@ volumes:
 
 ---
 
-<strong> Запуск імейджу Артема за допомогою docker на порті 8086</strong>
+<strong> Запуск імейджу Артема за допомогою docker на порті 8086</strong> <br/>
 ![artem_image](Lab3_images/artem`s_image.png)
 
-<strong> Вигляд запущеної сторінки </strong>
+<strong> Вигляд запущеної сторінки </strong> <br/>
 ![artem_page](Lab3_images/artem`s_page.png)
