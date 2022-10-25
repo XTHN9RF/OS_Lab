@@ -136,8 +136,9 @@ volumes:
         </body>
     </hmtl>
 ```
-<strong>Вигляд запущеної веб-сторінки</strong>
+<strong>Вигляд запущеної веб-сторінки</strong> <br/>
 ![web-page](Lab3_images/web-page.png)
+<br/>
 <strong> Вигляд Dockerfile </strong>
 ```
     FROM nginx
